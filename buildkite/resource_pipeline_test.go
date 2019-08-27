@@ -190,7 +190,7 @@ resource "buildkite_pipeline" "test_beanstalk" {
 const testAccPipeline_basicGithub = `
 resource "buildkite_pipeline" "test_github" {
   name = "tf-acc-basic-github"
-  repository = "git@github.com:saymedia/terraform-provider-buildkite.git"
+  repository = "git@github.com:buildkite/terraform-provider-buildkite.git"
 
   step {
     type = "script"
